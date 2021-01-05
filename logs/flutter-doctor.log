@@ -1,0 +1,27 @@
+[✓] Flutter (Channel stable, 1.22.5, on Linux, locale en_US.UTF-8)
+    • Flutter version 1.22.5 at /home/bastianb/.local/opt/flutter
+    • Framework revision 7891006299 (4 weeks ago), 2020-12-10 11:54:40 -0800
+    • Engine revision ae90085a84
+    • Dart version 2.10.4
+
+[!] Android toolchain - develop for Android devices (Android SDK version 30.0.0)
+    • Android SDK at /home/bastianb/Android/Sdk
+    • Platform android-30, build-tools 30.0.0
+    • Java binary at: /usr/bin/java
+    • Java version OpenJDK Runtime Environment (build 11.0.9.1+1-Ubuntu-0ubuntu1.20.04)
+    ✗ Android license status unknown.
+      Run `flutter doctor --android-licenses` to accept the SDK licenses.
+      See https://flutter.dev/docs/get-started/install/linux#android-setup for more details.
+
+[!] Android Studio (not installed)
+    • Android Studio not found; download from https://developer.android.com/studio/index.html
+      (or visit https://flutter.dev/docs/get-started/install/linux#android-setup for detailed instructions).
+
+[✓] VS Code (version 1.52.1)
+    • VS Code at /usr/share/code
+    • Flutter extension version 3.14.1
+
+[✓] Connected device (1 available)
+    • ANE LX1 (mobile) • 9WV7N18423001660 • android-arm64 • Android 9 (API 28)
+
+! Doctor found issues in 2 categories.

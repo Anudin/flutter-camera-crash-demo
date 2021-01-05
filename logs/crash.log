@@ -1,0 +1,58 @@
+I/PermissionManager(31126): camera remind result:true
+I/CameraManager(31126): open camera: 0, package name: com.example.demo
+I/BackgroundPermManager(31126): pkgName: com.example.demo,pid: 31126 ,uidOf3RdApk: 10217 ,permType: 0 ,permCfg: 1
+I/HwCameraUtil(31126): notifySurfaceFlingerCameraStatus : isFront = false , isOpend = true
+D/AwareBitmapCacher(31126): handleInit switch not opened pid=31126
+W/Settings(31126): Setting device_provisioned has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+V/HiTouch_HiTouchSensor(31126): User setup is finished.
+W/HiTouch_PressGestureDetector(31126): Touch pointer move a lot. The moving distance of X is:12.987976, limit is:60The moving distance of Y is:63.971924, limit is:60
+I/om.example.dem(31126): Starting profile saver IsSaveProfileNow end.
+V/AudioManager(31126): playSoundEffect   effectType: 0
+V/AudioManager(31126): querySoundEffectsEnabled...
+E/flutter (31126): [ERROR:flutter/lib/ui/ui_dart_state.cc(177)] Unhandled Exception: CameraException(captureFailure, An error happened in the framework)
+E/flutter (31126): #0      CameraController.takePicture (package:camera/src/camera_controller.dart:279:7)
+E/flutter (31126): <asynchronous suspension>
+E/flutter (31126): #1      _CameraAppState.build.<anonymous closure> (package:demo/main.dart:57:28)
+E/flutter (31126): #2      _InkResponseState._handleTap (package:flutter/src/material/ink_well.dart:993:19)
+E/flutter (31126): #3      _InkResponseState.build.<anonymous closure> (package:flutter/src/material/ink_well.dart:1111:38)
+E/flutter (31126): #4      GestureRecognizer.invokeCallback (package:flutter/src/gestures/recognizer.dart:183:24)
+E/flutter (31126): #5      TapGestureRecognizer.handleTapUp (package:flutter/src/gestures/tap.dart:598:11)
+E/flutter (31126): #6      BaseTapGestureRecognizer._checkUp (package:flutter/src/gestures/tap.dart:287:5)
+E/flutter (31126): #7      BaseTapGestureRecognizer.handlePrimaryPointer (package:flutter/src/gestures/tap.dart:222:7)
+E/flutter (31126): #8      PrimaryPointerGestureRecognizer.handleEvent (package:flutter/src/gestures/recognizer.dart:476:9)
+E/flutter (31126): #9      PointerRouter._dispatch (package:flutter/src/gestures/pointer_router.dart:77:12)
+E/flutter (31126): #10     PointerRouter._dispatchEventToRoutes.<anonymous closure> (package:flutter/src/gestures/pointer_router.dart:122:9)
+E/flutter (31126): #11     _LinkedHashMapMixin.forEach (dart:collection-patch/compact_hash.dart:377:8)
+E/flutter (31126): #12     PointerRouter._dispatchEventToRoutes (package:flutter/src/gestures/pointer_router.dart:120:18)
+E/flutter (31126): #13     PointerRouter.route (package:flutter/src/gestures/pointer_router.dart:106:7)
+E/flutter (31126): #14     GestureBinding.handleEvent (package:flutter/src/gestures/binding.dart:358:19)
+E/flutter (31126): #15     GestureBinding.dispatchEvent (package:flutter/src/gestures/binding.dart:338:22)
+E/flutter (31126): #16     RendererBinding.dispatchEvent (package:flutter/src/rendering/binding.dart:267:11)
+E/flutter (31126): #17     GestureBinding._handlePointerEvent (package:flutter/src/gestures/binding.dart:295:7)
+E/flutter (31126): #18     GestureBinding._flushPointerEventQueue (package:flutter/src/gestures/binding.dart:240:7)
+E/flutter (31126): #19     GestureBinding._handlePointerDataPacket (package:flutter/src/gestures/binding.dart:213:7)
+E/flutter (31126): #20     _rootRunUnary (dart:async/zone.dart:1206:13)
+E/flutter (31126): #21     _CustomZone.runUnary (dart:async/zone.dart:1100:19)
+E/flutter (31126): #22     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1005:7)
+E/flutter (31126): #23     _invoke1 (dart:ui/hooks.dart:265:10)
+E/flutter (31126): #24     _dispatchPointerDataPacket (dart:ui/hooks.dart:174:5)
+E/flutter (31126):
+E/ion     (31126): ioctl c0044901 failed with code -1: Invalid argument
+D/AndroidRuntime(31126): Shutting down VM
+W/om.example.dem(31126): Accessing hidden method Lcom/msic/qarth/PatchStore;->createDisableExceptionQarthFile(Ljava/lang/Throwable;)Z (blacklist, JNI)
+E/om.example.dem(31126): [qarth_debug:]  get PatchStore::createDisableExceptionQarthFile method fail.
+E/AndroidRuntime(31126): FATAL EXCEPTION: main
+E/AndroidRuntime(31126): Process: com.example.demo, PID: 31126
+E/AndroidRuntime(31126): java.lang.IllegalStateException: Request has already been finished
+E/AndroidRuntime(31126): 	at io.flutter.plugins.camera.PictureCaptureRequest.finish(PictureCaptureRequest.java:40)
+E/AndroidRuntime(31126): 	at io.flutter.plugins.camera.Camera.lambda$takePicture$0$Camera(Camera.java:257)
+E/AndroidRuntime(31126): 	at io.flutter.plugins.camera.-$$Lambda$Camera$kpdf-S9lnD9lSxBgWhomOdHv80s.onImageAvailable(Unknown Source:4)
+E/AndroidRuntime(31126): 	at android.media.ImageReader$ListenerHandler.handleMessage(ImageReader.java:800)
+E/AndroidRuntime(31126): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+E/AndroidRuntime(31126): 	at android.os.Looper.loop(Looper.java:216)
+E/AndroidRuntime(31126): 	at android.app.ActivityThread.main(ActivityThread.java:7625)
+E/AndroidRuntime(31126): 	at java.lang.reflect.Method.invoke(Native Method)
+E/AndroidRuntime(31126): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:524)
+E/AndroidRuntime(31126): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:987)
+I/Process (31126): Sending signal. PID: 31126 SIG: 9
+Lost connection to device.
